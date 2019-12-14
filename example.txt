@@ -1,0 +1,14 @@
+mkdir lesson5
+cd lesson5
+touch index.html
+git init
+git status
+git add .
+git commit -m 'Init'
+echo ! >> index.html
+git status
+git add .
+git status
+git commit -m 'Added base index.html'
+git remote add origin https://github.com/BereNOD/lesson5.git
+git push origin master
